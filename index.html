@@ -37,7 +37,8 @@ img{display:block;user-select:none;-webkit-user-drag:none}
 .music.on{display:grid}.music svg{width:20px;height:20px;fill:var(--gold)}.music .p{display:none}.music.paused .p{display:block}.music.paused .s{display:none}
 .wrap{opacity:0;visibility:hidden;background:#050d1c}
 .wrap.show{visibility:visible;opacity:1;transition:opacity 1.2s ease}
-.inv,.foot{position:relative;width:min(100%,520px);margin:0 auto;container-type:inline-size;overflow:hidden}
+.inv,.foot{position:relative;width:min(100%,520px);margin:0 auto;container-type:inline-size}
+.inv{overflow:hidden}.foot{margin-top:-1px}
 .inv{background:var(--bg) 0 0/100% auto repeat-y,var(--navy)}
 .inv{aspect-ratio:2550/9892}
 .L{position:absolute;height:auto}
@@ -57,7 +58,7 @@ img{display:block;user-select:none;-webkit-user-drag:none}
 .pill:hover,.pill:active{background:rgba(255,255,255,.12)}
 /* ---------- CUENTA REGRESIVA ---------- */
 .fin{position:relative;padding:56cqw 0 14cqw;text-align:center;background:var(--bg) 0 -129.1cqw/100% auto repeat-y,var(--navy)}
-.fin .fl{position:absolute;top:0;width:39cqw;transform:scaleY(-1)}
+.fin .fl{top:-3px!important;position:absolute;top:0;width:39cqw;transform:scaleY(-1)}
 .fin h3{font-family:'Pinyon Script',cursive;font-weight:400;font-size:13.2cqw;line-height:1;color:#fff;margin-top:-4cqw}
 .fin p{font-family:'Cinzel',serif;font-size:3cqw;letter-spacing:.32em;text-transform:uppercase;color:var(--gold);margin:3cqw 0 6cqw}
 .cd{display:flex;justify-content:center;gap:2.6cqw}
